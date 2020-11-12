@@ -1,0 +1,70 @@
+
+/*-------------------------------------En tete-----------------------------------*/ 
+
+.main {
+    background-color:rgb(20, 35, 35,.5);
+    padding: 2px;
+    text-align: center;
+    color:#006400;
+}
+
+
+/*---------------------------------------Navigation---------------------------------*/
+
+.nav {
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(palais.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width:100px;
+    margin:10px;
+    padding-top:2px;
+    outline:none !important;
+    margin-left:50px;
+    color:#000;
+    background-color:rgb(20, 35, 35,.5);
+    border-radius:10px;
+    border:#fff solid;
+    text-align:center;
+
+    
+}
+
+.nav ul li a{
+	text-decoration:none;
+	color: #fff;
+    
+
+
+}
+ ul li a:hover{
+    color:yellowgreen;
+
+}
+
+ul li .active a {
+    color: red;
+
+}
+
+h2{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color:khaki;
+    padding: 100px;
+    font-family: Gill Sans Ultra B;
+ }
+
+
+  
+
+
+
